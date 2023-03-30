@@ -22,7 +22,13 @@
 </p>
 
 ## Features
+    1、https://ikuuu.co/
+    2、在bashrc文件加入
+    export http_proxy="http://127.0.0.1:7890"
+    export https_proxy="http://127.0.0.1:7890"
+    7890这个端口号可在clash自己查看
 
+// 查看当前代理设置 ，注意：必须有代理服务器
 - Local HTTP/HTTPS/SOCKS server with authentication support
 - Shadowsocks(R), VMess, Trojan, Snell, SOCKS5, HTTP(S) outbound support
 - Built-in [fake-ip](https://www.rfc-editor.org/rfc/rfc3089) DNS server that aims to minimize DNS pollution attack impact. DoH/DoT upstream supported.
